@@ -4,7 +4,7 @@ services:
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
-    startCommand: strapi develop
+    startCommand: yarn start
     healthCheckPath: /_health
     autoDeploy: false
     disk:
